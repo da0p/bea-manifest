@@ -1,8 +1,8 @@
 header:
   version: 2
 
-distro: poky
-machine: beaglebone
+distro: bea
+machine: bea
 
 repos:
   poky:
@@ -40,11 +40,11 @@ repos:
 
   meta-bea:
     url: git@github.com:da0p/meta-bea.git
-    refspec: "ff578b92f0fd42d9322f7948e2134d0cfe765e00"
+    refspec: "bf28971fa1a5f80f7ce951ea9c7d53cabdfd7f30"
     path: "sources/meta-bea"
 
 local_conf_header:
-  dunfell: |
+  kirkstone: |
     PACKAGE_CLASSES ?= 'package_ipk'
     EXTRA_IMAGE_FEATURES ?= 'debug-tweaks'
 
