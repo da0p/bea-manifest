@@ -10,11 +10,11 @@ pip3 install kas
 ```
 2. Run
 ```
-./kas-container beaglebone.yml shell
+./kas-container --ssh-agent shell beaglebone.yml
 ```
 
 3. Build image
 ```
-bitbake core-image-bea
+bitbake bea-image-minimal
 ```
 
