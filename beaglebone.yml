@@ -32,7 +32,7 @@ repos:
 
   meta-ti:
     url: git://git.ti.com/arago-project/meta-ti.git
-    refspec: "cicd.kirkstone.202403280400"
+    refspec: "cicd.kirkstone.202311022105"
     path: "sources/meta-ti"
     layers:
       meta-ti-bsp:
